@@ -3,7 +3,7 @@
 import { useRef } from 'react';
 
 const EDITIONS = [
-  { id: 1, label: 'WealthAfrica\nSenegal\nPresidential\nEdition', href: 'https://www.calameo.com/read/0009460785c15266fa19c' },
+  { id: 1, label: 'WealthAfrica\nSenegal\nPresidential\nEdition', href: 'https://www.calameo.com/read/0009460785c15266fa19c', image: '/images/WealthAfrica-01.jpg' },
   { id: 2, label: 'WealthAfrica\nNigeria\nEdition', href: '#' },
   { id: 3, label: 'WealthAfrica\nKenya\nEdition', href: '#' },
   { id: 4, label: 'WealthAfrica\nGhana\nEdition', href: '#' },
@@ -27,11 +27,16 @@ export default function EditionsCarousel() {
       <div className="editions-carousel" ref={carouselRef}>
         {EDITIONS.map(ed => (
           <a key={ed.id} href={ed.href} target="_blank" rel="noopener noreferrer" className="edition-card">
-            <div className="edition-card-watermark">
-              {ed.label.split('\n').map((line, i) => (
-                <div key={i}>{line}</div>
-              ))}
-            </div>
+            {ed.image
+              ? <img src={ed.image} alt={ed.label.replace(/\n/g, ' ')} className="edition-card-img" />
+              : (
+                <div className="edition-card-watermark">
+                  {ed.label.split('\n').map((line, i) => (
+                    <div key={i}>{line}</div>
+                  ))}
+                </div>
+              )
+            }
           </a>
         ))}
       </div>
