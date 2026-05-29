@@ -1025,13 +1025,14 @@ input, textarea, select {
   align-items: center;
   justify-content: center;
   position: relative;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  transition: transform 0.3s ease, box-shadow 0.3s ease, filter 0.3s ease;
   cursor: pointer;
 }
 
 .edition-card:hover {
-  transform: translateY(-5px);
+  transform: translateY(-5px) scale(1.03);
   box-shadow: 0 20px 48px rgba(0,0,0,0.3);
+  filter: brightness(1.12);
 }
 
 .edition-card-watermark {
