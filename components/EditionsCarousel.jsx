@@ -4,7 +4,7 @@ import { useRef } from 'react';
 
 const EDITIONS = [
   { id: 1, label: 'WealthAfrica\nSenegal\nPresidential\nEdition', href: 'https://www.calameo.com/read/0009460785c15266fa19c', image: '/images/WealthAfrica-01.jpg' },
-  { id: 2, label: 'WealthAfrica\nNigeria\nEdition', href: '#' },
+  { id: 2, label: 'WealthAfrica\nNigeria\nEdition', href: '/analysis/golden-mirage', image: '/images/GoldMirage.jpg' },
   { id: 3, label: 'WealthAfrica\nKenya\nEdition', href: '#' },
   { id: 4, label: 'WealthAfrica\nGhana\nEdition', href: '#' },
   { id: 5, label: 'WealthAfrica\nRwanda\nEdition', href: '#' },
