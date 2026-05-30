@@ -43,7 +43,7 @@ export default function VideosPage() {
             <h1>Videos</h1>
             <p>
               Video analysis, interviews, and market intelligence from the
-              WealthAfrica editorial team.
+              WealthAfrica editorial team and from other sources.
             </p>
           </div>
 
