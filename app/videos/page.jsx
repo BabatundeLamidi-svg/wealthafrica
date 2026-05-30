@@ -10,25 +10,25 @@ export const metadata = {
 
 const VIDEOS = [
   {
+    id: 'jVs4NBoHZic',
+    embedId: 'jVs4NBoHZic',
+    title: 'Aliko Dangote: Building Africa\'s industrial future from the ground up | Podcast | In Good Company',
+    description:
+      'Nicolai Tangen sits down with Aliko Dangote, Founder and CEO of the Dangote Group, Africa\'s largest industrial conglomerate, to explore his journey from a small Lagos trading firm to a sprawling empire spanning cement, fertiliser, petrochemicals, and the world\'s largest single-train oil refinery.',
+  },
+  {
+    id: 'iOrvOwBRsdk',
+    embedId: 'iOrvOwBRsdk',
+    title: 'How Boring Businesses Create Billionaires',
+    description:
+      "A Princeton economist's research reveals that many of America's millionaires built their fortunes through private businesses in industries most people overlook.",
+  },
+  {
     id: '2v4J7cV5LEg',
     embedId: '2v4J7cV5LEg',
     title: 'Infrastructure, Fiscal Space, and Capital Market Funding',
     description:
       "Why Nigeria's and Africa's infrastructure conversation must now shift from ambition to financing architecture.",
-  },
-  {
-    id: 'placeholder-2',
-    embedId: null,
-    title: 'Coming Soon',
-    description:
-      'In-depth video analysis of African markets, investments, and policy from the WealthAfrica editorial team.',
-  },
-  {
-    id: 'placeholder-3',
-    embedId: null,
-    title: 'Coming Soon',
-    description:
-      'Video interviews with Africa\'s leading investors, policymakers, and executives.',
   },
 ];
 
